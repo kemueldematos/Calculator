@@ -1,4 +1,4 @@
-# 🧮 Python Calculator
+# 🧮 Calculator in Python
 
 ## 🖥 Interface (Terminal)
 
