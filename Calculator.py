@@ -1,15 +1,62 @@
 def soma():
     print("")
-    k = int(input("Insira o primeiro valor:"))
-    s = int(input("Insira o segundo valor:"))
+    k = input("Insira o primeiro valor:")
+    s = input("Insira o segundo valor:")
     
-    sk = k + s
-    print("O valor da soma é = ",sk)
+    try:
+    
+        k = float(k)
+        s = float(s)
+        sk = k + s
+        print("O resultado da adicão é =", sk) 
 
+    except ValueError:
+        print("ERRO! OS DOIS VALORES À SER INSERIDOS DEVEM SER APENAS NÚMEROS")
+    
+def subtracao():
+    print("")
+    k = input("Insira o primeiro valor:")
+    s = input("Insira o segundo valor:")
+    
+    try:
+    
+        k = float(k)
+        s = float(s)
+        sk = k - s
+        print("O resultado da subtração é =", sk) 
 
+    except ValueError:
+        print("ERRO! OS DOIS VALORES À SER INSERIDOS DEVEM SER APENAS NÚMEROS") 
+    
+def multiplicacao():
+    print("")
+    k = input("Insira o primeiro valor:")
+    s = input("Insira o segundo valor:")
+    
+    try:
+    
+        k = float(k)
+        s = float(s)
+        sk = k * s
+        print("O resultado da multiplicação é =", sk) 
 
-
-
+    except ValueError:
+        print("ERRO! OS DOIS VALORES À SER INSERIDOS DEVEM SER APENAS NÚMEROS") 
+        
+def divisao():
+    print("")
+    k = input("Insira o primeiro valor:")
+    s = input("Insira o segundo valor:")    
+    
+    try: 
+        k = float(k)
+        s = float(s)
+        sk = k / s
+        print("O resultado da Divisão é =", sk)
+        
+    except ValueError:
+        print("ERRO! OS DOIS VALORES À SER INSERIDOS DEVEM SER APENAS NÚMEROS")
+    
 while True:
 
     menu = """
@@ -46,6 +93,6 @@ while True:
         break
         
     else:
-        print("Opção Inválida, tente novamente:")
+        print("Opção Inválida, tente novamente!")
         print("")
         
