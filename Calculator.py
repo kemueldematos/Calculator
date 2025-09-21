@@ -1,7 +1,13 @@
+# FAZER PORTENTAGEM
+# IMPLEMETAR LISTAS E DICIONÁRIOS
+# ATUALIZAR O README
+
+
+
 def soma():
     print("")
-    k = input("Insira o primeiro valor:")
-    s = input("Insira o segundo valor:")
+    k = input("Insira o primeiro valor: ")
+    s = input("Insira o segundo valor: ")
     
     try:
     
@@ -11,12 +17,12 @@ def soma():
         print("O resultado da adicão é =", sk) 
 
     except ValueError:
-        print("ERRO! OS DOIS VALORES À SER INSERIDOS DEVEM SER APENAS NÚMEROS")
+        print("ERRO! OS DOIS VALORES À SEREM INSERIDOS DEVEM SER APENAS NÚMEROS")
     
 def subtracao():
     print("")
-    k = input("Insira o primeiro valor:")
-    s = input("Insira o segundo valor:")
+    k = input("Insira o primeiro valor: ")
+    s = input("Insira o segundo valor: ")
     
     try:
     
@@ -26,12 +32,12 @@ def subtracao():
         print("O resultado da subtração é =", sk) 
 
     except ValueError:
-        print("ERRO! OS DOIS VALORES À SER INSERIDOS DEVEM SER APENAS NÚMEROS") 
+        print("ERRO! OS DOIS VALORES À SEREM INSERIDOS DEVEM SER APENAS NÚMEROS") 
     
 def multiplicacao():
     print("")
-    k = input("Insira o primeiro valor:")
-    s = input("Insira o segundo valor:")
+    k = input("Insira o primeiro valor: ")
+    s = input("Insira o segundo valor: ")
     
     try:
     
@@ -41,12 +47,12 @@ def multiplicacao():
         print("O resultado da multiplicação é =", sk) 
 
     except ValueError:
-        print("ERRO! OS DOIS VALORES À SER INSERIDOS DEVEM SER APENAS NÚMEROS") 
+        print("ERRO! OS DOIS VALORES À SEREM INSERIDOS DEVEM SER APENAS NÚMEROS") 
         
 def divisao():
     print("")
-    k = input("Insira o primeiro valor:")
-    s = input("Insira o segundo valor:")    
+    k = input("Insira o primeiro valor: ")
+    s = input("Insira o segundo valor: ")    
     
     try: 
         k = float(k)
@@ -55,7 +61,7 @@ def divisao():
         print("O resultado da Divisão é =", sk)
         
     except ValueError:
-        print("ERRO! OS DOIS VALORES À SER INSERIDOS DEVEM SER APENAS NÚMEROS")
+        print("ERRO! OS DOIS VALORES À SEREM INSERIDOS DEVEM SER APENAS NÚMEROS")
     
 while True:
 
